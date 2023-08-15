@@ -7,16 +7,28 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="quiz-container">
-      <h1 id="question"></h1>
-      <div id="options">
-        <!-- Options will be dynamically added here -->
+    <div class="container-div">
+      <p class="links-par">
+        <a href="https://github.com/Chizaram-Igolo/QuizApplication"
+          >Go to GitHub Repo</a
+        >
+        |
+        <a href="https://chizaram-igolo.github.io/QuizApplication/"
+          >Live Version with GitHub pages</a
+        >
+      </p>
+      <div class="quiz-container">
+        <h1 id="question"></h1>
+        <div id="options">
+          <!-- Options will be dynamically added here -->
+        </div>
+        <p id="feedback"></p>
+        <p id="timer"></p>
+        <button id="next-button">Next</button>
+        <button id="restart-button">Restart</button>
       </div>
-      <p id="feedback"></p>
-      <p id="timer"></p>
-      <button id="next-button">Next</button>
-      <button id="restart-button">Restart</button>
     </div>
+
     <script type="module" src="./js/quiz.js"></script>
   </body>
 </html>

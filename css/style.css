@@ -2,9 +2,19 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.container-div {
+  margin: 20vh auto;
+}
+
+.links-par {
+  max-width: 840px;
+  margin: 0 auto 10px;
+  text-align: right;
+}
+
 .quiz-container {
   max-width: 800px;
-  margin: 20vh auto;
+  margin: 0vh auto;
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #f9f9f9;
