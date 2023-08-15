@@ -4,7 +4,7 @@ body {
 
 .quiz-container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10vh auto;
     padding: 20px;
     border: 1px solid #ccc;
     background-color: #f9f9f9;
@@ -18,3 +18,8 @@ body {
 #timer {
     font-weight: bold;
 }
+
+#restart-button{
+    display: none;
+}
+
