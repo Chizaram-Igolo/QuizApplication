@@ -1,25 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .quiz-container {
-    max-width: 800px;
-    margin: 10vh auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    text-align: center;
+  max-width: 800px;
+  margin: 20vh auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  text-align: center;
 }
 
 #feedback {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #timer {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-#restart-button{
-    display: none;
+#restart-button {
+  display: none;
 }
-
